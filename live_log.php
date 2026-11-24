@@ -1,5 +1,4 @@
-<!-- Файл: live_log.php -->
-<!-- Интерфейс ведущего для логирования эфира -->
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -18,7 +17,7 @@
         <h2>🎙️ Логирование эфира</h2>
         
         <label>Программа:</label>
-        <!-- ДЕФЕКТ №2 (намеренный): нет выбранного значения по умолчанию -->
+
         <select id="showSelect">
             <option value="0">-- Выберите шоу --</option>
             <option value="1">Утренний драйв</option>
@@ -31,7 +30,6 @@
             <option value="101">Artist - Song Title</option>
         </select>
 
-        <!-- ДЕФЕКТ №3 (намеренный): кнопка не блокируется при клике -->
         <button class="btn" onclick="alert('Запрос отправлен на api.php (имитация)')">ЛОГИРОВАТЬ ЭФИР</button>
     </div>
 </body>
